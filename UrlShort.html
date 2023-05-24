@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortener</title>
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  text-align: center;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+input, button {
+  margin-top: 1rem;
+}
+
+#result {
+  margin-top: 2rem;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <h1>URL Shortener</h1>
+  </header>
+  <main>
+    <form id="shorten-form">
+      <label for="url-input">Enter URL:</label>
+      <input type="url" id="url-input" required>
+      <button type="submit">Shorten</button>
+    </form>
+    <div id="result"></div>
+  </main>
+  <script src="scriptsWebG1.js"></script>
+</body>
+</html>
